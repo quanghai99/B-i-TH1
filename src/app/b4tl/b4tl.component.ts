@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class B4tlComponent implements OnInit {
   constructor() { }
-  s =[{hoten: 'Nguyen Van An', quequan: 'Hai Duong', diemthi:9},
-  {hoten: 'Bui Xuan Loc', quequan: 'Ha Noi', diemthi:7.5},
-  { hoten: 'Dinh Duy Ben', quequan: 'Hai Phong', diemthi:8.3}
+  s =[{hoten: 'pham quang hai', quequan: 'Hai Duong', diemthi:9},
+  {hoten: 'nguyen thu hang', quequan: 'Hai Duong', diemthi:9.5},
+  { hoten: 'Dinh Duy anh', quequan: 'Hai Duong', diemthi:8.3}
   ];
   rs:any [] =[];
   ngOnInit(): void {

@@ -9,14 +9,14 @@ export class B1tlComponent implements OnInit {
 
   constructor() { }
   s=0;
-  n: any;
-  x: any;
+  a: any;
+  b: any;
   ngOnInit(): void {
 
   }
   tinh(){
-    for(let i=1;i<=this.n;++i){
-      this.s += Math.pow(this.x,i);
+    for(let i=1;i<=this.a;++i){
+      this.s += Math.pow(this.b,i);
     }
   }
 }

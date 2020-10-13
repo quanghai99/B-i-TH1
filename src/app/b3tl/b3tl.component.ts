@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class B3tlComponent implements OnInit {
 
   constructor() { }
-  s = [{hoten:'Nguyen Van An',dthi:9.5},
-  {hoten:'Hoang Vu Viet',dthi:10.5},
-  {hoten:'Dinh Duy Anh',dthi:5.5}
+  s = [{hoten:'hoang thai bao',dthi:9.5},
+  {hoten:'vu dinh hoang',dthi:10.5},
+  {hoten:'dinh huu hieu',dthi:5.5}
   ];
 
   ngOnInit(): void {

@@ -10,12 +10,12 @@ export class B8tlComponent implements OnInit {
   constructor() { }
   h: any;
   dt: any;
-  kq: any;
+  KQ: any;
   ngOnInit(): void {
 
   }
   tinh(){
-    this.kq= (this.h*this.dt)/3;
+    this.KQ= (this.h*this.dt)/3;
   }
 
 }

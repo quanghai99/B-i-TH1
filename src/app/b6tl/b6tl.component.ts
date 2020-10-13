@@ -18,7 +18,7 @@ export class B6tlComponent implements OnInit {
   }
   tong = 0;
   // tslint:disable-next-line: semicolon
-  dayso = [-19, -18, -17, -16, -15, -14, -13, -12, -11, 0, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  dayso = [-9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     ngOnInit(): void {
         this.tong = this.tongduong(this.dayso);
     }

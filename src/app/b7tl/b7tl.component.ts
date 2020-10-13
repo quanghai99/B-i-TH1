@@ -23,11 +23,11 @@ export class B7tlComponent implements OnInit {
 
   tinh() {
     const pt = new PhuongTrinh(this.A, this.B, this.C);
-    const giai = pt.giai();
+    const Giai = pt.giai();
 
-    if (giai == 0) {
+    if (Giai == 0) {
       this.ALERT = 'Phương trình vô nghiệm';
-    } else if (giai == 1) {
+    } else if (Giai == 1) {
       if (pt.X1 < 0) {
         this.ALERT = 'Phương trình vô nghiệm';
       } else if (pt.X1 == 0) {
